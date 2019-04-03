@@ -3,10 +3,10 @@
 def loop_iterator(number_of_times)
   loop do
     number_of_times = number_of_times + 1
-  puts "Iteration #{counter} of the loop"
- 
-  if counter >= 10 # If our counter is 10 or more
-    break # Stop the loop
+  puts "Welcome to Flatiron School's Web Development Course!"
+  
+  if number_of_times >= 7
+    break
   end
 end
 end
